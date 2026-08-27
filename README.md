@@ -3,6 +3,7 @@
 This is a project I did to practice going from raw sales data to something a business could actually use: clean up a messy six-month dataset, figure out what's going on with the business, and build a dashboard someone non-technical could open and use without me having to explain it to them.
 
 **Tools:** Microsoft Excel (PivotTables, PivotCharts, Slicers, formulas)
+
 **Period covered:** January – June 2026
 
 > Quick note: This wasn't client work, it's a practice project done in the context of Catalyst Support Group. The dataset is generic/synthetic too, not real sales figures or real employees. I treated it like a real engagement anyway.
