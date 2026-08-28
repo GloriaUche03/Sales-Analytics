@@ -6,7 +6,7 @@ This is a project I did to practice going from raw sales data to something a bus
 
 **Period covered:** January – June 2026
 
-> Quick note: This wasn't client work, it's a practice project done in the context of Catalyst Support Group. The dataset is generic/synthetic too, not real sales figures or real employees. I treated it like a real engagement anyway.
+> Quick note: This wasn't a client work, it's a practice project done in the context of Catalyst Support Group. The dataset is generic/synthetic too, not real sales figures or real employees. I treated it like a real engagement anyway.
 
 ---
 
@@ -21,9 +21,8 @@ The raw data had the usual mess:
 - Duplicate order records
 - Region names entered inconsistently (`East` and `east` in the same column)
 - Missing values I had to track down
-- A few missing Total Sales figures I recalculated from quantity, unit price, and discount
+- A few missing Total Sales figures I recalculated from quantity, unit price, and discount.
 
-One thing I'll admit up front: a handful of `Product Category` values are still inconsistently cased in the raw sheet (`electronics`, `Electronics`, `ELECTRONICS`). My PivotTables group on the standardized values so the numbers below hold up, but if I did this again I'd fix that with a formula or Power Query step instead of manual find-and-replace, so it doesn't creep back in every time new rows get added.
 
 ## What I was trying to answer
 
