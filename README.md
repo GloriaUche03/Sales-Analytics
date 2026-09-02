@@ -71,48 +71,31 @@ The `Sales Dashboard` tab pulls all of this into one view:
 
 <!-- ![Sales Dashboard](screenshots/dashboard.png) -->
 
-## What I'd recommend
-
-1. Put more marketing and inventory budget behind East since it's already the strongest region.
-2. Look into why North and South are behind, and try targeted promotions there.
-3. Stock and promote Electronics harder, it's clearly the category doing the heavy lifting.
-4. Figure out what Grace Udo is doing right and see if it's repeatable across the team.
 
 
-**Key insight: one region, one category, one product**
+**Observation**
 
-The real story here isn't just that East is the top-performing region. It's that East's success basically comes down to one category, and that category comes down to one product.
 
-East doesn't just lead on total sales. It also has the highest average order value, at ₦1,430 per order, compared to ₦1,043 to ₦1,230 everywhere else. So it's not winning by getting more orders; the orders themselves are bigger. The reason why comes down to Electronics. It makes up about 60% of total revenue (₦656,093 of ₦1,101,979), more than Furniture, Home Appliances, and Office Supplies put together. And inside Electronics, one product carries most of that weight. Laptop makes up nearly 60% of the category's revenue, almost three times what the next best product, Cabinet, brings in.
+While going through the numbers, one thing stood out more than anything else. At first, it looked like East was simply the best-performing region. But the more I dug in, the clearer it became that East's success wasn't spread out. It was really coming from one category, and that one category was being carried by one product.
 
-Put it all together, and East's Electronics sales alone (₦217,323) come close to outselling the entire Furniture category across the whole business. That's not a business winning broadly. It's one that's winning narrowly, in a fairly small part of what it sells.
+East didn't just have the highest total sales. It also had the highest average order value, at ₦1,430 per order, compared to ₦1,043 to ₦1,230 in the other regions. That told me East wasn't winning simply by getting more orders. The orders themselves were bigger. When I looked into why, Electronics stood out as the answer. It made up about 60% of total revenue, ₦656,093 out of ₦1,101,979, more than Furniture, Home Appliances, and Office Supplies combined. And within Electronics, one product was doing most of the work. Laptop alone made up nearly 60% of that category's revenue, almost three times more than the next best product, Cabinet.
 
-That's the part worth paying attention to. A big chunk of total revenue is riding on one region, one category, and really one product continuing to perform well. If Laptop sales slow down, or East's Electronics numbers drop, the impact won't be small, it will be big. So the takeaway isn't just "invest more in East." It's "understand how much the business depends on this one combination, and start building up the other regions and categories so there's a backup."
+Putting these pieces together made the pattern even clearer. East's Electronics sales alone, ₦217,323, came close to outselling the entire Furniture category across the whole business. That's not a business performing well across the board. It's a business doing very well in one small part of what it sells, while the rest trails far behind.
 
+This is the part I felt was worth flagging. A large portion of total revenue is riding on one region, one category, and really one product continuing to perform well. If Laptop sales were to slow down, or if East's Electronics numbers were to dip, the effect wouldn't be minor. It would be significant enough to notice across the whole business.
 
 
 **Business Recommendations**
 
-**1. Treat the East, Electronics, and Laptop combination as a risk, not just a win.**
-A large share of total revenue depends on one region, one category, and basically one product doing well. Before putting more investment into this combination, the business should think through what happens if any part of it slows down. A drop in Laptop demand or a slowdown in East would not just hurt sales a little. It would hit hard.
+Right now, a large share of revenue depends on one region (East), one category (Electronics), and mainly one product (Laptop). This is good news, but it's also a risk. If Laptop sales slow down or East underperforms, the business would feel it strongly, not just a little. So while this combination should keep getting support, the company should also start building up the other regions and categories as a backup. North, South, and West aren't just behind on order volume, their average order sizes are smaller too, so growth efforts there should focus on increasing order value, not just order count. Furniture is the strongest candidate for this, since it's already the clear second-place category and outperforms Home Appliances and Office Supplies by a wide margin.
 
-**2. Make a real effort to grow the other three regions.**
-North, South, and West are not just behind East in volume. Their average order values are lower too, which means the gap isn't only about how many orders they get, but how big each order is. Promotions or bundling in these regions should aim to raise order value, not just get more orders.
+Office Supplies is worth a second look. It brings in a high number of orders but contributes very little to overall revenue, so the company should confirm whether it's genuinely worth the effort it takes to run, or if resources are better placed elsewhere.
 
-**3. Grow other categories without stepping away from Electronics.**
-Electronics should stay the main focus, but Furniture is clearly in second place and the most realistic category to grow further. It's already doing much better than Home Appliances and Office Supplies. Pushing Furniture harder, especially outside East, would make the business less dependent on one category.
+On the sales team side, performance shouldn't be measured by one number alone. Grace Udo brings in the most total sales and orders, but Fatima Musa closes fewer deals at a much higher value per sale. Recognition and incentives should account for both types of strong performance.
 
-**4. Take a closer look at what Office Supplies is really doing for the business.**
-It brings in the second-highest number of orders but only a little over 1% of total revenue. That's not automatically a bad thing. It might just be a low-margin category that sells often. But it's worth checking whether it's actually contributing enough, or just taking up effort for very little return.
+The company should also look into why sales dropped by almost 40% between February and May before recovering slightly in June. If this dip is tied to something fixable, like a pause in marketing or a supply issue, addressing it could recover meaningful revenue.
 
-**5. Recognize salespeople for different strengths, not just one number.**
-Grace Udo leads in both total sales and number of orders, but Fatima Musa closes fewer deals at a much higher average value. A reward system based only on "top performer" misses this difference. Incentives should recognize both people who sell a lot and people who sell big, since both add real value.
-
-**6. Look into why sales dropped in spring.**
-Sales fell by almost 40% from February's peak down to May's low, before picking back up a bit in June. Rather than assuming this is just seasonal, the business should check if it lines up with something specific, like holidays, supply problems, or a pause in marketing. If the cause can be fixed, this is a simple way to recover real revenue.
-
-**7. Keep using the dashboard, not just as a one-time report but as an ongoing tool.**
-The dashboard already lets people filter by region, category, and salesperson. Going forward, it should be used to keep an eye on whether the East, Electronics, and Laptop concentration is getting worse or improving over time, instead of treating this analysis as something done once and forgotten.
+Finally, the dashboard built for this analysis should not be treated as a one-time report. It should be used going forward to track whether the company's dependence on East, Electronics, and Laptop is growing or easing over time.
 
 ## Repo structure
 
