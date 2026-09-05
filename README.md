@@ -24,15 +24,19 @@ The raw data had the usual mess:
 - Missing Total Sales Values which were essential for the analysis
 
 **Handling duplicates**
+
 I checked for duplicates using Order ID, which was expected to be unique. Of the total records, 993 were unique and 7 were duplicates. I dug into those 7 to see whether entire rows were duplicated or whether only some fields matched. It turned out some had discrepancies in the discount column which is an important field; so I dropped those records, since the discount value couldn't be reliably calculated or inferred.
 
 **Standardizing regions**
+
 Region names were standardized into a single consistent format: East, North, West, South.
 
 **Handling missing values**
+
 I checked each column for missing values and found gaps in three: salesperson (38 missing), quantity (29 missing), and unit price (30 missing). I dropped these records rather than guess-filling them, since I had no reliable way to reconstruct the correct values without more context.
 
 **Calculating Total Sales**
+
 I calculated the Total Sales column using quantity, unit price, and discount.
 
 
