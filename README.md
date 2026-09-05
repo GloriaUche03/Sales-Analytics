@@ -45,19 +45,6 @@ I calculated the Total Sales column using quantity, unit price, and discount.
 5. What were the top 10 products?
 6. What was the average order value?
 
-## What I found
-
-| Metric | Result |
-|---|---|
-| Total Sales | ₦1,101,979 |
-| Total Orders | 897 |
-| Average Order Value | ₦1,229 |
-| Top Region | East (₦325,976) |
-| Top Product Category | Electronics (₦651,492) |
-| Top Salesperson | Grace Udo (₦172,849) |
-| Best-Selling Product | Laptop (₦392,194) |
-
-East pulled ahead of every other region, mostly on the back of Electronics. Laptop alone brought in more than a third of that category's revenue, more than double the next product (Cabinet).
 
 ## The dashboard
 
@@ -75,6 +62,15 @@ The `Sales Dashboard` tab pulls all of this into one view:
 
 **Observation**
 
+| Metric | Result |
+|---|---|
+| Total Sales | ₦1,101,979 |
+| Total Orders | 897 |
+| Average Order Value | ₦1,229 |
+| Top Region | East (₦325,976) |
+| Top Product Category | Electronics (₦651,492) |
+| Top Salesperson | Grace Udo (₦172,849) |
+| Best-Selling Product | Laptop (₦392,194) |
 
 While going through the numbers, one thing stood out more than anything else. At first, it looked like East was simply the best-performing region. But the more I dug in, the clearer it became that East's success wasn't spread out. It was really coming from one category, and that one category was being carried by one product.
 
@@ -83,6 +79,19 @@ East didn't just have the highest total sales. It also had the highest average o
 Putting these pieces together made the pattern even clearer. East's Electronics sales alone, ₦217,323, came close to outselling the entire Furniture category across the whole business. That's not a business performing well across the board. It's a business doing very well in one small part of what it sells, while the rest trails far behind.
 
 This is the part I felt was worth flagging. A large portion of total revenue is riding on one region, one category, and really one product continuing to perform well. If Laptop sales were to slow down, or if East's Electronics numbers were to dip, the effect wouldn't be minor. It would be significant enough to notice across the whole business.
+
+
+## The dashboard
+
+The `Sales Dashboard` tab pulls all of this into one view:
+
+- KPI cards for Total Sales, Total Orders, Average Order Value, Sales Region
+- Charts for Sales by Region, Sales by Product Category, Top 10 Products, Sales by Salesperson
+- Slicers for Region, Product Category, and Salesperson, so anyone can filter every chart at once without touching a formula
+
+*(Screenshot goes here — I'll add one from the actual Excel file and drop it in `screenshots/dashboard.png`.)*
+
+ ![Sales Dashboard](Screenshot/Sales-Dashboard.png) 
 
 
 **Business Recommendations**
