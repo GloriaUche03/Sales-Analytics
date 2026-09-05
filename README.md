@@ -76,7 +76,7 @@ Putting these pieces together made the pattern even clearer. East's Electronics 
 This is the part I felt was worth flagging. A large portion of total revenue is riding on one region, one category, and really one product continuing to perform well. If Laptop sales were to slow down, or if East's Electronics numbers were to dip, the effect wouldn't be minor. It would be significant enough to notice across the whole business.
 
 
-## The dashboard
+## The Dashboard
 
 The `Sales Dashboard` tab pulls all of this into one view:
 
@@ -99,19 +99,6 @@ The company should also look into why sales dropped by almost 40% between Februa
 
 Finally, the dashboard built for this analysis should not be treated as a one-time report. It should be used going forward to track whether the company's dependence on East, Electronics, and Laptop is growing or easing over time.
 
-
-## Repo structure
-
-```
-sales-analytics/
-├── README.md
-├── data/
-│   └── retail_sales_dataset.xlsx   # Raw data, PivotTables, and dashboard in one workbook
-├── docs/
-│   └── project_report.docx         # My original written report
-└── screenshots/
-    └── dashboard.png               # Dashboard screenshot goes here
-```
 
 ## Skills I practiced here
 
