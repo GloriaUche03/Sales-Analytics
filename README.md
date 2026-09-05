@@ -14,6 +14,7 @@ For this project, I wanted to practice the whole pipeline of turning raw sales d
 
 The dataset consisted of 1000 order-level transactions, including order ID, date, region, salesperson, product category, product, quantity, unit price, discount, and total sales; with no additional context provided. This mirrors how real-world requests typically arrive.
 
+
 **Cleaning it up**
 
 The raw data had the usual mess:
@@ -22,18 +23,22 @@ The raw data had the usual mess:
 - Region names entered inconsistently (`East` and `east` in the same column)
 - Missing values I had to track down
 - Missing Total Sales Values which were essential for the analysis
+ 
 
 **Handling duplicates**
 
 I checked for duplicates using Order ID, which was expected to be unique. Of the total records, 993 were unique and 7 were duplicates. I dug into those 7 to see whether entire rows were duplicated or whether only some fields matched. It turned out some had discrepancies in the discount column which is an important field; so I dropped those records, since the discount value couldn't be reliably calculated or inferred.
 
+
 **Standardizing regions**
 
 Region names were standardized into a single consistent format: East, North, West, South.
 
+
 **Handling missing values**
 
 I checked each column for missing values and found gaps in three: salesperson (38 missing), quantity (29 missing), and unit price (30 missing). I dropped these records rather than guess-filling them, since I had no reliable way to reconstruct the correct values without more context.
+
 
 **Calculating Total Sales**
 
@@ -93,6 +98,7 @@ On the sales team side, performance shouldn't be measured by one number alone. G
 The company should also look into why sales dropped by almost 40% between February and May before recovering slightly in June. If this dip is tied to something fixable, like a pause in marketing or a supply issue, addressing it could recover meaningful revenue.
 
 Finally, the dashboard built for this analysis should not be treated as a one-time report. It should be used going forward to track whether the company's dependence on East, Electronics, and Laptop is growing or easing over time.
+
 
 ## Repo structure
 
