@@ -10,12 +10,12 @@ For this project, I wanted to practice the whole pipeline of turning raw sales d
 
 ---
 
-**What I was working with**
+## What I was working with
 
 The dataset consisted of 1000 order-level transactions, including order ID, date, region, salesperson, product category, product, quantity, unit price, discount, and total sales; with no additional context provided. This mirrors how real-world requests typically arrive.
 
 
-**Cleaning it up**
+## Cleaning it up
 
 The raw data had the usual mess:
 
@@ -55,7 +55,7 @@ I calculated the Total Sales column using quantity, unit price, and discount.
 6. What was the average order value?
 
 
-**Observation**
+## Observation
 
 | Metric | Result |
 |---|---|
@@ -76,7 +76,7 @@ Putting these pieces together made the pattern even clearer. East's Electronics 
 This is the part I felt was worth flagging. A large portion of total revenue is riding on one region, one category, and really one product continuing to perform well. If Laptop sales were to slow down, or if East's Electronics numbers were to dip, the effect wouldn't be minor. It would be significant enough to notice across the whole business.
 
 
-**The dashboard**
+## The dashboard
 
 The `Sales Dashboard` tab pulls all of this into one view:
 
@@ -87,7 +87,7 @@ The `Sales Dashboard` tab pulls all of this into one view:
  ![Sales Dashboard](Screenshot/Sales-Dashboard.png) 
 
 
-**Business Recommendations**
+## Business Recommendations
 
 Right now, a large share of revenue depends on one region (East), one category (Electronics), and mainly one product (Laptop). This is good news, but it's also a risk. If Laptop sales slow down or East underperforms, the business would feel it strongly, not just a little. So while this combination should keep getting support, the company should also start building up the other regions and categories as a backup. North, South, and West aren't just behind on order volume, their average order sizes are smaller too, so growth efforts there should focus on increasing order value, not just order count. Furniture is the strongest candidate for this, since it's already the clear second-place category and outperforms Home Appliances and Office Supplies by a wide margin.
 
