@@ -10,11 +10,11 @@ For this project, I wanted to practice the whole pipeline of turning raw sales d
 
 ---
 
-## What I was working with
+**What I was working with**
 
 The dataset consisted of 1000 order-level transactions, including order ID, date, region, salesperson, product category, product, quantity, unit price, discount, and total sales; with no additional context provided. This mirrors how real-world requests typically arrive.
 
-## Cleaning it up
+**Cleaning it up**
 
 The raw data had the usual mess:
 
@@ -23,20 +23,20 @@ The raw data had the usual mess:
 - Missing values I had to track down
 - Missing Total Sales Values which were essential for the analysis
 
-# Handling duplicates
+**Handling duplicates**
 I checked for duplicates using Order ID, which was expected to be unique. Of the total records, 993 were unique and 7 were duplicates. I dug into those 7 to see whether entire rows were duplicated or whether only some fields matched. It turned out some had discrepancies in the discount column which is an important field; so I dropped those records, since the discount value couldn't be reliably calculated or inferred.
 
-# Standardizing regions
+**Standardizing regions**
 Region names were standardized into a single consistent format: East, North, West, South.
 
-# Handling missing values
+**Handling missing values**
 I checked each column for missing values and found gaps in three: salesperson (38 missing), quantity (29 missing), and unit price (30 missing). I dropped these records rather than guess-filling them, since I had no reliable way to reconstruct the correct values without more context.
 
-# Calculating Total Sales
+**Calculating Total Sales**
 I calculated the Total Sales column using quantity, unit price, and discount.
 
 
-## What I was trying to answer
+**What I was trying to answer**
 
 1. What were total sales over the six months?
 2. Which region did best?
@@ -44,20 +44,6 @@ I calculated the Total Sales column using quantity, unit price, and discount.
 4. Who was the top salesperson?
 5. What were the top 10 products?
 6. What was the average order value?
-
-
-## The dashboard
-
-The `Sales Dashboard` tab pulls all of this into one view:
-
-- KPI cards for Total Sales, Total Orders, Average Order Value, Sales Region
-- Charts for Sales by Region, Sales by Product Category, Top 10 Products, Sales by Salesperson
-- Slicers for Region, Product Category, and Salesperson, so anyone can filter every chart at once without touching a formula
-
-*(Screenshot goes here — I'll add one from the actual Excel file and drop it in `screenshots/dashboard.png`.)*
-
-<!-- ![Sales Dashboard](screenshots/dashboard.png) -->
-
 
 
 **Observation**
@@ -81,15 +67,13 @@ Putting these pieces together made the pattern even clearer. East's Electronics 
 This is the part I felt was worth flagging. A large portion of total revenue is riding on one region, one category, and really one product continuing to perform well. If Laptop sales were to slow down, or if East's Electronics numbers were to dip, the effect wouldn't be minor. It would be significant enough to notice across the whole business.
 
 
-## The dashboard
+**The dashboard**
 
 The `Sales Dashboard` tab pulls all of this into one view:
 
 - KPI cards for Total Sales, Total Orders, Average Order Value, Sales Region
 - Charts for Sales by Region, Sales by Product Category, Top 10 Products, Sales by Salesperson
 - Slicers for Region, Product Category, and Salesperson, so anyone can filter every chart at once without touching a formula
-
-*(Screenshot goes here — I'll add one from the actual Excel file and drop it in `screenshots/dashboard.png`.)*
 
  ![Sales Dashboard](Screenshot/Sales-Dashboard.png) 
 
