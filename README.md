@@ -63,15 +63,15 @@ I calculated the Total Sales column using quantity, unit price, and discount.
 | Total Orders | 897 |
 | Average Order Value | ₦1,229 |
 | Top Region | East (₦325,976) |
-| Top Product Category | Electronics (₦651,492) |
+| Top Product Category | Electronics (₦656,093) |
 | Top Salesperson | Grace Udo (₦172,849) |
 | Best-Selling Product | Laptop (₦392,194) |
 
 While going through the numbers, one thing stood out more than anything else. At first, it looked like East was simply the best-performing region. But the more I dug in, the clearer it became that East's success wasn't spread out. It was really coming from one category, and that one category was being carried by one product.
 
-East didn't just have the highest total sales. It also had the highest average order value, at ₦1,430 per order, compared to ₦1,043 to ₦1,230 in the other regions. That told me East wasn't winning simply by getting more orders. The orders themselves were bigger. When I looked into why, Electronics stood out as the answer. It made up about 60% of total revenue, ₦656,093 out of ₦1,101,979, more than Furniture, Home Appliances, and Office Supplies combined. And within Electronics, one product was doing most of the work. Laptop alone made up nearly 60% of that category's revenue, almost three times more than the next best product, Cabinet.
+East didn't just have the highest total sales. It also had the highest average order value, at ₦1,430 per order, compared to ₦1,043 for North to ₦1,230 for South ,and 1,216 for West in the other regions. That told me East wasn't winning simply by getting more orders. The orders themselves were bigger. When I looked into why, Electronics stood out as the answer. It made up about 60% of total revenue, ₦656,093 out of ₦1,101,979, more than Furniture, Home Appliances, and Office Supplies combined. And within Electronics, one product was doing most of the work. Laptop alone made up nearly 60% of that category's revenue, almost three times more than the next best product, Cabinet.
 
-Putting these pieces together made the pattern even clearer. East's Electronics sales alone, ₦217,323, came close to outselling the entire Furniture category across the whole business. That's not a business performing well across the board. It's a business doing very well in one small part of what it sells, while the rest trails far behind.
+Putting these pieces together made the pattern even clearer. East's Electronics sales alone, ₦219,158, came close to outselling the entire Furniture category across the whole business. That's not a business performing well across the board. It's a business doing very well in one small part of what it sells, while the rest trails far behind.
 
 This is the part I felt was worth flagging. A large portion of total revenue is riding on one region, one category, and really one product continuing to perform well. If Laptop sales were to slow down, or if East's Electronics numbers were to dip, the effect wouldn't be minor. It would be significant enough to notice across the whole business.
 
